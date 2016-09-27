@@ -1,16 +1,17 @@
 body {
-display: flex;
-flex-flow: row wrap;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .table-of-contents {
   display: flex;
+  flex-flow: column wrap;
 }
 
 .contents {
   display: flex;
+  flex-flow: column wrap;
 }
 
 .npm-commands-content {
-  display: flex;
 }
