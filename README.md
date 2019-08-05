@@ -1,1 +1,5 @@
-This is a quick guide for js users.
+# JS Guide
+
+A guide to JavaScript (ES5+).
+
+See the `./guide` folder.
