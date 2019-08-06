@@ -17,3 +17,6 @@ const addOneTo = exampleNumber => exampleNumber + 1
 
 console.log(addOneTo(1)) // logs 2
 ```
+
+With arrow functions, this is taken from its surroundings. A new this is not
+created within an arrow function unlike regular functions.
