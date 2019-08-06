@@ -1,7 +1,13 @@
-console.log(testVar)
-var testVar = 0
-console.log(testVar)
+function exampleVarFunction () {
+    let exampleVar = 'test'
 
-console.log(testLet)
-let testLet = 0
-console.log(testLet)
+    function innerVarFunction () {
+      console.log(exampleVar)
+    }
+
+    innerVarFunction()
+}
+
+exampleVarFunction()
+
+// console.log(exampleVar)  // Causes error
