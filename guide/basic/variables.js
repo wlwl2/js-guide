@@ -1,7 +1,7 @@
-console.log(test1)
-var test1 = 0
-console.log(test1)
+console.log(testVar)
+var testVar = 0
+console.log(testVar)
 
-console.log(test2)
-let test2 = 0
-console.log(test2)
+console.log(testLet)
+let testLet = 0
+console.log(testLet)

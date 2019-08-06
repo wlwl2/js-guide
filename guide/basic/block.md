@@ -9,29 +9,29 @@ Blocks are commonly used in association with if and for statements.
 ## var keyword
 
 ```js
-var a = 1
+var blockVar = 1
 {
-  var a = 2
+  var blockVar = 2
 }
-console.log(a) // logs 2
+console.log(blockVar) // logs 2
 ```
 
 ## let keyword
 
 ```js
-let b = 1
+let blockLet = 1
 {
-  let b = 2
+  let blockLet = 2
 }
-console.log(b) // logs 1
+console.log(blockLet) // logs 1
 ```
 
 ## const keyword
 
 ```js
-const c = 1
+const blockConst = 1
 {
-  const c = 2
+  const blockConst = 2
 }
-console.log(c) // logs 1 and does not throw SyntaxError...
+console.log(blockConst) // logs 1
 ```

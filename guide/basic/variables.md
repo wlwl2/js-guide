@@ -3,20 +3,20 @@
 `var` is function scoped and `let` is block scoped.
 
 ```js
-console.log(test1)
-var test1 = 0
-console.log(test1)
+console.log(testVar)
+var testVar = 0
+console.log(testVar)
 // returns:
 // undefined
 // 0
 
-console.log(test2)
-let test2 = 0
-console.log(test2)
-// returns:
-// ReferenceError: Cannot access 'test2' before initialization
+console.log(testLet)
+let testLet = 0
+console.log(testLet)
+// logs:
+// ReferenceError: Cannot access 'testLet' before initialization
 // in Google Chrome Browser.
-// returns:
-// ReferenceError: test2 is not defined
+// logs:
+// ReferenceError: testLet is not defined
 // in CLI
 ```
